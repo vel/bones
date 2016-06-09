@@ -269,7 +269,10 @@ menu {
 ol,
 ul {
     padding: 0;
-    list-style-type: none;
+    
+}
+.header, .footer, .sidebar {
+ul, ol {list-style-type: none;}
 }
 
 /*

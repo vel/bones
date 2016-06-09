@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $white;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
@@ -71,7 +71,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 96%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ H1, H2, H3, H4, H5 STYLES
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
-	font-weight: 500;
+	
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -153,7 +153,7 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	
 }
 
 	#logo {
@@ -256,19 +256,16 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
-			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
 
 			header {
-				border-bottom: 1px solid $light-gray;
+
 				padding: 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
+
 
 				p {
 					margin: 0;
@@ -303,7 +300,7 @@ POSTS & CONTENT STYLES
 
 		/* post meta */
 		.byline {
-			color: $meta-gray;
+
 			font-style: italic;
 			margin: 0;
 
@@ -417,7 +414,7 @@ POSTS & CONTENT STYLES
 			.alignleft, img.alignleft {}
 			.alignright, img.alignright {}
 			.aligncenter, img.aligncenter {}
-
+			img,
 			.size-auto,
 			.size-full,
 			.size-large,
@@ -851,7 +848,6 @@ SIDEBARS & ASIDES
 		background-color: $white;
 		padding: 1.5em;
 		text-align: center;
-		border: 1px solid $border-color;
 		border-radius: 2px;
 		margin-bottom: 1.5em;
 	}
@@ -862,8 +858,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
-	color: $light-gray;
+
 }
 
 	/*
